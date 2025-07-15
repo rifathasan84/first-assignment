@@ -58,3 +58,34 @@ nav {
     text-align: center;
     margin-bottom: 37px;
 }
+/* action  */
+.action-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 160px 116px 141px;
+}
+.action-image{
+    margin-left: 220px;
+}
+.action-image img{
+    border-radius: 50px;
+    width: 403px;
+}
+.action-text{
+    max-width: 517px;
+    margin-right: 220px;
+}
+.action-text h2{
+    font-size: 42px;
+    margin-bottom: 23px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.action-text p{
+    color: #252432;
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
