@@ -164,10 +164,31 @@ nav {
 }
 .reviwer{
     display: flex;
+    margin-top: 24px;
 }
 .star-rev{
     display: flex;
+    margin-bottom: 24px;
+}
+.star-rev img{
+    margin-right: 4px;
 }
 .rev-photo{
     border-radius: 50%;
+
+}
+.rev-name{
+    color: #757575;
+    margin-left: 12px;
+    font-weight: bold;
+}
+.rev-date{
+    color: #B3B3B3;
+    font-weight: normal; 
+}
+.rev-title{
+    font-size: larger;
+}
+.rev-des{
+    font-size: small;
 }
