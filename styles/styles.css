@@ -10,10 +10,12 @@
     cursor: pointer;
 
 }
+
 /* bg color  */
-body{
+body {
     background-color: #F5F8FF;
 }
+
 .header {
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -140,55 +142,134 @@ nav {
     font-size: 20px;
     color: #000000;
 }
+
 /* review-section */
-.review-section{
+.review-section {
     margin: 137px 150px;
 }
 
-.review-section h3{
+.review-section h3 {
     font-weight: bold;
     font-size: 42px;
     text-align: center;
 }
-.review-container{
+
+.review-container {
     display: flex;
     gap: 20px;
-    margin: 10px auto ;
+    margin: 10px auto;
     max-width: 1140px;
 }
-.review{
+
+.review {
     background-color: #FFFFFF;
     border-radius: 20px;
     padding: 24px;
     width: 367px;
 }
-.reviwer{
+
+.reviwer {
     display: flex;
     margin-top: 24px;
 }
-.star-rev{
+
+.star-rev {
     display: flex;
     margin-bottom: 24px;
 }
-.star-rev img{
+
+.star-rev img {
     margin-right: 4px;
 }
-.rev-photo{
+
+.rev-photo {
     border-radius: 50%;
 
 }
-.rev-name{
+
+.rev-name {
     color: #757575;
     margin-left: 12px;
     font-weight: bold;
 }
-.rev-date{
+
+.rev-date {
     color: #B3B3B3;
-    font-weight: normal; 
+    font-weight: normal;
 }
-.rev-title{
+
+.rev-title {
     font-size: larger;
 }
-.rev-des{
+
+.rev-des {
     font-size: small;
 }
+
+/* footer-styles */
+.form-container {
+    padding: 93px 150px 14px 150px;
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    align-items: center;
+    height: 632px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+}
+
+.form-title h1 {
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+    margin-right: 115px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    /* padding: 10px; */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 40px;
+    /* width: 100%; */
+    font-size: 20px;
+    font-weight: 400;
+}
+#email-input{
+    text-align: center;
+    /* width: 497px;
+    height: 102px; */
+    padding: 20px 152px;
+}
+#name-input{
+    padding: 20px 379px 20px 32px;
+    /* width: 497px;
+    height: 70px; */
+}
+.contact-form textarea {
+    padding: 20px 257px 85px 32px;
+}
+.form-section button{
+    padding: 19px 201px;
+}
+
+/* .footer input [type="text"],
+footer input [type="email"],
+footer textarea {
+    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: block;
+} */
